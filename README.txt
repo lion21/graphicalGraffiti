@@ -17,3 +17,39 @@ Profile Page Deployement
 		. /etc/gitconfig   -----contains values for evrey user on the sysand thier  
 
 								repos	
+
+
+
+
+		C. Set up your username and email ---git uses this info for every commit
+		
+		$git congig --global user.name "yourusername"
+
+		$git config --global user.email youremailaddress
+
+
+		D. Set up Editor
+
+		$git config --global core.editor editorname
+
+		E. Set up Diff Tool
+			see ch 7 for custom 	
+
+
+		F. Check Settings
+		
+		$git config --list
+
+		$git help < verb >
+
+		$git < verb > --help
+
+		$git help config 
+
+
+
+
+
+
+
+								
