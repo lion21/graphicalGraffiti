@@ -47,7 +47,27 @@ Profile Page Deployement
 		$git help config 
 
 
+2. To clone in laptop
+	
+	open terminal on mac
 
+	$git clone <https:// address here from your repo on git hub>
+
+	this will immediatley download your clone
+
+	$ ls      to list your files
+
+	$ cd     your folder
+
+	to edit readme.tx if there is one 
+
+	$ pico readme.txt
+
+	this opens the editor in terminal and you can edit the readme file	
+
+
+
+								
 
 
 
