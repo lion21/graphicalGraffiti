@@ -65,6 +65,49 @@ Profile Page Deployement
 
 	this opens the editor in terminal and you can edit the readme file	
 
+	after edit is complete run the following to commit back up to github
+
+     $ git add .
+     
+     $ git commit -m "update readme file"
+     [master 5aefef9] update readme file
+     2 files changed, 22 insertions(+), 1 deletion(-)
+     create mode 160000 graphicalGraffiti
+
+     $ git push
+
+     warning: push.default is unset; its implicit value is changing in
+     Git 2.0 from 'matching' to 'simple'. To squelch this message
+     and maintain the current behavior after the default changes, use:
+
+     git config --global push.default matching
+
+     To squelch this message and adopt the new behavior now, use:
+
+     git config --global push.default simple
+
+    See 'git help config' and search for 'push.default' for further information.
+    (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+    'current' instead of 'simple' if you sometimes use older versions of Git)
+
+
+   Username for 'https://github.com': lion21
+
+  Password for 'https://lion21@github.com': 
+  
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 591 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/lion21/graphicalGraffiti.git
+   2b188fd..5aefef9  master -> master
+Susans-MacBook-Pro:graphicalGraffiti susantodd$ 
+
+
+
+
+
 
 
 								
