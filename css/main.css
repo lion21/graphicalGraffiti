@@ -1,29 +1,120 @@
  /*
  Susan Todd
  Mobil Dev
- */
- /*Colors
 
-lt slate-- gray#708090
-dk grey-- #A9a9a9
-lt blue--#add8e6
-lt steel blue--#b0c4de
-wht smoke-#f5f5f5
+Colors
+
+gradiant
+ltBlu=#B6C0A8
+dkBu=#*86bdba
+ivory=#CABFA1
+redOrange=#C02A12
+pinkOrange=#E5604F
+limeGreen=#DBDA9A
+darkestBrown=#4E4037
+dkBrown
+#857454
+Brown
+#806B4E
+lightestBrown
+
+blueChevy=#32F8676
+TEAL=#388E8B
 
  */
  /***********body****************/
 
+<link rel="stylesheet"  href="css/main.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Pacifico:bolditalic">
+/*--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=FontName:bolditalic|AnotherFontName:italic">--*/
+
+/*center the web page*/
+/*center the pg*/
+#wrapper{
+		width:960px;
+	    margin:0 auto;	 
+}
 body{ 
 
-	background-color:#f5f5f5;
-	font-family:Verdana,Arial,sans-serif ;
-	font-size:14em;
-	color:#a9a9a9;
+	background: -webkit-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(47,134,118,0), rgba(47,134,118,1)); /* Standard syntax (must be last) */
 
 }
+
+
+header{
+	background-color:#4E4037;/**#45341b;/*chocolate*/
+	/*width:960px;*/
+	height:170px;
 	
+	/*background-repeat:no-repeat;*/
+	/*background-color:#45341b ;/*chocolate*/	
 
+}	
+#nav{
+	width:960px;
+	height:170px;
+	
+}
+#content{
+	    width: 100%;
+	
+}	    	
 h1{
-	color:#b0c4de;
+	
+	font-family:"Pacifico";
+	color:#b0c4de;/*blue*/
+	margin:10px;
+	padding:20px;
+
 }
 
+h2 , h3, h4 {
+	margin:10px;
+	padding:20px;
+
+}
+h2{
+	color:#806B4E;/*brown*/
+	background-image: url("../images/paper.gif");
+	background-repeat: no-repeat;
+	
+}
+h3{
+	background-image: url("../images/paper.gif");
+	background-repeat: no-repeat;
+	color:#857454;/**/
+}
+h4{ 
+	color:#C02A12;/*dkOrange*/
+}
+p{
+	/*font-family:Verdana,Arial,sans-serif ;*/
+	font-family:"Lato";
+	font-size:1.2em;
+	color:#4E4037;/*dkBrown*/
+}
+/*==spans colors==*/
+span{
+
+	color:#2F8676;/*blue*/
+}
+.red{
+	color:#C02A12;
+}
+.green{
+	color:#DBDA9A;/*limeGreen*/
+}
+article{
+	margin:20px;
+	padding:20px;
+}
+img{
+
+	border-style:solid; 
+	border-color:#E5604F;/*pinkOrange*/
+	border-radius: 10px;
+	border-width: 7px;
+}

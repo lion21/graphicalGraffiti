@@ -1,33 +1,48 @@
  <!--Susan Todd 6-14 -->
- 
-
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-  
-    <title>Profile Page</title>
-
-  <link rel="stylesheet" href="css/main.css">
-
-</head>
-<body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-<h1>Susan Todd</h1>
-  
-<h2>About</h2>
-<p>IT Professional living in Savannah, Georgia. Currently working with rich media content and web applications.</p>
+    <title>SusanTodd|ProfilePage</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+   <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">-->
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+<!-- CSS concatenated and minified via ant build script-->
+<!--custom css loaded first-->
+<link rel="stylesheet"  href="css/main.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Pacifico:bolditalic">
+</head>
+<div id="wrapper"  class="grad1">
+<div id="grad1">  
+<body>
+  <header>
+        <h1 class="app_name">Susan <span class="green">Todd</span> </h1>
+    <div id="nav">
+    </div><!--close nav-->  
+ </header><!--close header-->
+<div id="content">  
+ 
+    <h2>About</h2>
+    <p>Web Designer/Develper living in Savannah, Georgia. Currently working with <span class="red">rich media content</span> and <span class="green">web applications</span>.</p>
+
+<div id="projects">
 
 
-<h3>Projects</h3>
+    <h3>Projects</h3>
+    <h4>Rich Media</h4>
 
+    <article id="first"> 
 
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=hJk3OSlpb2M
         " target="_http:youtu.be/hJk3OSlpb2M ">
     
-        <img src="http://img.youtube.com/vi/hJk3OSlpb2M/0.jpg" 
-        alt="travel advert" width="240" height="180" /></a>
+      <span class="green"><img src="http://img.youtube.com/vi/hJk3OSlpb2M/0.jpg" 
+        alt="travel advert" width="240" height="180"/></span></a>
 
 
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=4f2S3MEOj7c
@@ -35,20 +50,20 @@
     
         <img src="http://img.youtube.com/vi/4f2S3MEOj7c0.jpg" 
         alt="video tutorial html" width="240" height="180"  /></a>
-
+ 
 
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=X9cYThjmE58
         " target="http://youtu.be/X9cYThjmE58">
     
         <img src="http://img.youtube.com/vi/X9cYThjmE58/0.jpg" 
         alt="video ad fullsail" width="240" height="180"  /></a>
-
+   
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=seKTuUplwYo
         " target="http://youtu.be/seKTuUplwYo">
     
         <img src="http://img.youtube.com/vi/YseKTuUplwYo/0.jpg" 
         alt="video tutorial statics" width="240" height="180"  /></a>
-
+ 
 
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=VGxtpCSjjZI
         " target="http://youtu.be/VGxtpCSjjZI">
@@ -56,14 +71,16 @@
         <img src="http://img.youtube.com/vi/VGxtpCSjjZI/0.jpg" 
         alt="IMAGE ALT TEXT HERE" width="240" height="180"  /></a>
 
-
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=4f2S3MEOj7c
         " target="http://youtu.be/4f2S3MEOj7c">
     
         <img src="http://img.youtube.com/vi/4f2S3MEOj7c/0.jpg" 
         alt="IMAGE ALT TEXT HERE" width="240" height="180"  /></a>
+</article><!--close first article--> 
+<br>
+<h4>Apps & Games</h4>  
 
-
+<article id="second"> 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hJk3OSlpb2M
         " target="_http:youtu.be/hJk3OSlpb2M ">
@@ -75,8 +92,7 @@
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=UNYht0qWgI8
         " target="http://youtu.be/UNYht0qWgI8">
     
-        <img src="http://img.youtube.com/vi/UNYht0qWgI8.jpg" 
-        alt="IMAGE ALT TEXT HERE" width="240" height="180"  /></a>
+        <img src="http://img.youtube.com/vi/UNYht0qWgI8.jpg"    alt="IMAGE ALT TEXT HERE" width="240" height="180"  /></a>
 
 
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=gGxkiVsNCrE
@@ -85,29 +101,25 @@
         <img src="http://img.youtube.com/vi/gGxkiVsNCrE/0.jpg" 
         alt="video tutorial firebug" width="240" height="180" /></a>
 
+ <a href="http://www.youtube.com/watch?feature=player_embedded&v=gGxkiVsNCrE
+        " target="http://youtu.be/gGxkiVsNCrE">
+    
+        <img src="http://img.youtube.com/vi/gGxkiVsNCrE/0.jpg" 
+        alt="video tutorial firebug" width="240" height="180" /></a>
+</article><!--close second article>         
 
+</div><!--close proj-->
+</div><!--close gradiant-->
+</div><!-- close content-->
+</div><!-- close wrapper-->
 
+<!-- jquery --><!--using google apis -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script ttype="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <!-- plugins -->
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+    <!-- main -->
+    <script type="text/javascript" src="js/main.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-             </p>
-
-
-    </div>
 </body>
 </html>

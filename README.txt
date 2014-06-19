@@ -67,7 +67,7 @@ Profile Page Deployement
 
 	after edit is complete run the following to commit back up to github
 
-     $ git add .
+     $ git add -A
      
      $ git commit -m "update readme file"
      [master 5aefef9] update readme file
@@ -106,11 +106,14 @@ Susans-MacBook-Pro:graphicalGraffiti susantodd$
 
 
 
+	$git status
+	$git add -A
+	$commit -m 'fixed that problem'
+	$git push prodServer master	
+	$git remote add prodServer ssh://myusername @ xxxx.xxxx.xxxx.xxxx/var/repos/mobilDev.git
+	$enter your password
 
 
-
-
-								
 
 
 
