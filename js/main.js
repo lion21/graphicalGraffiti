@@ -39,7 +39,7 @@ Susan Todd
 
 
    //take user from project page back to the dashboard/admin page
-   $("#backBtn").on("click", function(e){
+   $("#homeBtn").on("click", function(e){
    	  //id="dashboardButton" 
 
 		e.preventDefault();
@@ -52,7 +52,7 @@ Susan Todd
 		//class="taskbtn" >
 		e.preventDefault();
 
-		window.location.assign("tasks.html");
+		window.location.assign("coffee.html");
 	});//	"tasksbtn" 
 
 

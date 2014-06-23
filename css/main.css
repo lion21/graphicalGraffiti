@@ -25,7 +25,10 @@ TEAL=#388E8B
  /***********body****************/
 
 <link rel="stylesheet"  href="css/main.css">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Pacifico:bolditalic">
+
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Pacifico">
+
+<link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 /*--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=FontName:bolditalic|AnotherFontName:italic">--*/
 
 /*center the web page*/
@@ -34,7 +37,9 @@ TEAL=#388E8B
 		width:960px;
 	    margin:0 auto;	 
 }
-body{ 
+body{
+	margin:70px; 
+
 
 	background: -webkit-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Opera 11.1 to 12.0 */
@@ -47,17 +52,22 @@ body{
 header{
 	background-color:#4E4037;/**#45341b;/*chocolate*/
 	/*width:960px;*/
-	height:170px;
+	height:225px;
+	padding:20px;
 	
 	/*background-repeat:no-repeat;*/
 	/*background-color:#45341b ;/*chocolate*/	
 
 }	
 #nav{
-	width:960px;
-	height:170px;
+	padding:20px;
 	
-}
+	height:170px;
+	float:right;
+
+
+	
+	
 #content{
 	    width: 100%;
 	
@@ -65,7 +75,8 @@ header{
 h1{
 	
 	font-family:"Pacifico";
-	color:#b0c4de;/*blue*/
+	font-size: 170px;
+	color:#32F8676 ;/*blue*/
 	margin:10px;
 	padding:20px;
 
@@ -77,19 +88,30 @@ h2 , h3, h4 {
 
 }
 h2{
-	color:#806B4E;/*brown*/
-	background-image: url("../images/paper.gif");
+	
 	background-repeat: no-repeat;
 	
 }
 h3{
-	background-image: url("../images/paper.gif");
-	background-repeat: no-repeat;
+	
 	color:#857454;/**/
 }
 h4{ 
 	color:#C02A12;/*dkOrange*/
 }
+/*style nav btns*/
+ul{
+
+	float:left;
+	width:100%;
+	padding:20px;
+	margin:0;
+	list-style-type:none;
+}
+li{
+	display:inline;
+}
+/*paragraph style*/
 p{
 	/*font-family:Verdana,Arial,sans-serif ;*/
 	font-family:"Lato";
@@ -109,7 +131,7 @@ span{
 }
 article{
 	margin:20px;
-	padding:20px;
+	padding:50px;
 }
 img{
 
