@@ -11,13 +11,13 @@ ivory=#CABFA1
 redOrange=#C02A12
 pinkOrange=#E5604F
 limeGreen=#DBDA9A
+dk green=#515010
 darkestBrown=#4E4037
 dkBrown
 #857454
 Brown
 #806B4E
 lightestBrown
-
 blueChevy=#32F8676
 TEAL=#388E8B
 
@@ -25,9 +25,9 @@ TEAL=#388E8B
  /***********body****************/
 
 <link rel="stylesheet"  href="css/main.css">
-
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel=stylesheet" href="css/redmond/jquery-ui-1.10.4.custom.min.css">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Pacifico">
-
 <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 /*--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=FontName:bolditalic|AnotherFontName:italic">--*/
 
@@ -39,35 +39,25 @@ TEAL=#388E8B
 }
 body{
 	margin:70px; 
-
-
 	background: -webkit-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to top, rgba(47,134,118,0), rgba(47,134,118,1)); /* Standard syntax (must be last) */
 
 }
-
-
 header{
-	background-color:#4E4037;/**#45341b;/*chocolate*/
+	background-color:#4E4037;/*chocolate*/
 	/*width:960px;*/
 	height:225px;
 	padding:20px;
-	
-	/*background-repeat:no-repeat;*/
-	/*background-color:#45341b ;/*chocolate*/	
-
+		
 }	
 #nav{
 	padding:20px;
-	
 	height:170px;
 	float:right;
 
-
-	
-	
+}	
 #content{
 	    width: 100%;
 	
@@ -76,12 +66,11 @@ h1{
 	
 	font-family:"Pacifico";
 	font-size: 170px;
-	color:#32F8676 ;/*blue*/
+	color:#388E8B;/*teal*/
 	margin:10px;
 	padding:20px;
 
 }
-
 h2 , h3, h4 {
 	margin:10px;
 	padding:20px;
@@ -89,12 +78,12 @@ h2 , h3, h4 {
 }
 h2{
 	
-	background-repeat: no-repeat;
+	color:#857454;/**/
 	
 }
 h3{
 	
-	color:#857454;/**/
+	color:#515010;/*drk green*/
 }
 h4{ 
 	color:#C02A12;/*dkOrange*/
@@ -117,6 +106,7 @@ p{
 	font-family:"Lato";
 	font-size:1.2em;
 	color:#4E4037;/*dkBrown*/
+	margin:10px;
 }
 /*==spans colors==*/
 span{
@@ -127,7 +117,7 @@ span{
 	color:#C02A12;
 }
 .green{
-	color:#DBDA9A;/*limeGreen*/
+	color:#515010;/*Green*/
 }
 article{
 	margin:20px;
@@ -136,7 +126,37 @@ article{
 img{
 
 	border-style:solid; 
-	border-color:#E5604F;/*pinkOrange*/
+	border-color:#515010;/*dkgreen*/
 	border-radius: 10px;
-	border-width: 7px;
+	border-width: 2px;
+	margin:10px;
+	padding:5px;
 }
+/*Tabs- for accordian*/
+/* mytabs creates the light grey backround box to hold all the projects*/
+.mytabs{
+	/*width:800px;*/
+	width:960px;
+	background-color:#388E8B;/*grey#CCC*/
+	padding:10px;
+}
+
+.tabs li{ 
+	list-style:none;/*no bullets*/
+	display:inline;/*makes the lists didsplay inline*/
+}
+
+.tabs a{/* these are the anchors on the tabs*/
+	padding:5px 10px;
+	 /*should make tabs be inline and block style*/
+	display:inline-block;
+	background-color:#666;/*grey*/
+	color:#FFF;/*shite*/
+	text-decoration: none;
+}
+
+.tabs a.active{
+	background-color:#FFF; /*change background to white when tab is active*/ 
+	color:#000;/*black*/
+	
+} 

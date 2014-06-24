@@ -48,12 +48,22 @@ Susan Todd
     });
 
 
-	$(".coffeeBtn").on("click", function(e){
+	$("#coffeeBtn").on("click", function(e){
 		//class="taskbtn" >
 		e.preventDefault();
 
 		window.location.assign("coffee.html");
 	});//	"tasksbtn" 
+
+
+
+	$("#contactBtn").on("click", function(e){
+		//class="taskbtn" >
+		e.preventDefault();
+
+		window.location.assign("contact.html");
+	});//	"tasksbtn" 
+
 
 
 // adds the calandar
@@ -75,7 +85,7 @@ $(".mydatepicker").datepicker();
     //if location.hash matches one of the links then make it active
     //if not then use the first tab as the active tab
 
-    //we will hide the content tabs thtat are not non-active           //setting tabs at index 0
+    //we will hide the content tabs that are not non-active           //setting tabs at index 0
 
     $active = $($links.filter( '[href= "  '+location.hash+'  " ]' )[0]   || $links[0] );
 
