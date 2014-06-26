@@ -2,7 +2,7 @@
 Susan Todd
 
 */
-
+/*==========ToolTip===========================*/
 (function($){
 	console.log("ready");//ready
 
@@ -37,36 +37,43 @@ Susan Todd
 
 	});//close tooltip fn
 
+/*+++++++++++BUTTONS++++++++++++++++++++++++++++++++++++++++++++*/
 
    //take user from project page back to the dashboard/admin page
    $("#homeBtn").on("click", function(e){
-   	  //id="dashboardButton" 
-
+   	  //homeBtn 
 		e.preventDefault();
 
 		window.location.assign("index.html");//go from projects.html back to dashboard
     });
 
 
-	$(".coffeeBtn").on("click", function(e){
-		//class="taskbtn" >
+	$("#coffeeBtn").on("click", function(e){
+		
 		e.preventDefault();
 
 		window.location.assign("coffee.html");
-	});//	"tasksbtn" 
+	});//coffeeBtn" 
 
 
-// adds the calandar
-$(".mydatepicker").datepicker();
+	$("#contactBtn").on("click", function(e){
+		
+		e.preventDefault();
 
+		window.location.assign("contact.html");
+	});// "contactBtn"
+
+
+	$("#404Btn").on("click", function(e){
+		//class="taskbtn" >
+		e.preventDefault();
+
+		window.location.assign("404.html");
+	});// "404Btn"
 
 
 /*===========Accordian for Admin/Dashboard Page=============*/
-
-     //<div class="mytabs">
-     //<ul class="tabs">
-			//$("ul.tabs").each(function() {			//======================There was a space after the l =====================//
-
+		
   $("ul.tabs").each(function() {
 	//keeping track of the active tab
 	//context of $(this) = $active  //find anchors
@@ -139,9 +146,7 @@ $(function() {
 	//$("#droppable").droppable();
 		
 });
-
-
-		
+	
 
 })(jQuery); // end private scope
 
