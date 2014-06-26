@@ -12,50 +12,68 @@
     <meta name="author" content="">
    <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">-->
     <!--  Mobile viewport optimized: j.mp/bplateviewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>Profile Page</title>
 <!-- CSS concatenated and minified via ant build script-->
 <!--custom css loaded first-->
-<link rel="stylesheet"  href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet"  href="css/main.css">
+
 </head>
 <div id="wrapper">
+ 
 <body>
-  <header>
-        <h1 class="app_name">Susan<span class="green">Todd</span> </h1>
-    <div id="nav">
-    </div><!--close nav-->  
- </header><!--close header-->
-<div id="content">
-<div id="grad1">
-	<h2>404 Error</h2>
-<p>Yikes ! Ethel Dont Look Ethal! <br><span class="red">It's a 404 Error Code !</span>
-<br>Darn those 404's when are they going to grow up and stop acting out in <span> public!</span>
-<div id="projects">
-<h3></h3>
-			<p><input id="backBtn" 
-				   name="backBtn" 
-			       type="button" 
-			       title="click to go back "
-			       value="Back to Safty"
-			       class="masterTooltip"
-			       placeholder=""/></p>
+    <header>
+      
+       <h1 class="app_name">Susan <span class="green">Todd</span>   <i class="fa fa-leaf  fa - 5x"/></i></h1>
 
-			<p><input id="coffeeBtn"
-			 	   name="coffeeBtn" 
-			       type="button" 
-			       title="click to go to coffee"
-			       value="I need coffee"
-			       class="masterTooltip"
-			       placeholder=""/></p>
+      <div id="nav">
+           
+            <p><input id="homeBtn" 
+                   name="homeBtn" 
+                   type="button" 
+                   title="click to go home "
+                   value="Home"
+                   class="masterTooltip"
+                   placeholder=""/></p>
+
+            <p><input id="coffeeBtn"
+                   name="coffeeBtn" 
+                   type="button" 
+                   title="click to go to coffee"
+                   value="I need coffee"
+                   class="masterTooltip"
+                   placeholder=""/></p>
+
+                   [Visit GitHub !](www.github.com)
+      </div><!--close nav-->  
+    </header><!--close header-->
+
+    <div id="content">
+ 
+
+	     <h2>404 Error</h2>
+            <i class="fa fa-leaf  fa - 3x   "/></i>
+            <p>Yikes ! Ethel ! <br> Dont Look Ethal! <br><span class="red">It's a 404 Error Code !</span>
+            <br>Darn those 404's when are they going to grow up and stop acting out in <span> public!</span>
+
+ 		       		
+    </div><!--close content-->
+    </div><!--close wrapper-->
+
+  <!-- jquery --><!--using google apis -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <!-- plugins -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+    <!-- main -->
+    <script type="text/javascript" src="js/main.js"></script>
 
 
-</div><!--close projects-->
-</div><!--close gradiant-->			       
-		
-</div><!--close content-->
-</div><!--close wrapper-->
 
 </body>
 </html>
