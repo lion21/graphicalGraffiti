@@ -24,6 +24,7 @@ TEAL=#388E8B
 */
  /***********body****************/
 
+
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel=stylesheet" href="css/redmond/jquery-ui-1.10.4.custom.min.css">
@@ -38,6 +39,7 @@ width:960px;
 margin:0 auto;
 }
 body{
+
 margin:70px;
 background: -webkit-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Safari 5.1 to 6.0 */
 background: -o-linear-gradient(top, rgba(47,134,118,0), rgba(47,134,118,1)); /* For Opera 11.1 to 12.0 */
@@ -57,10 +59,13 @@ height:170px;
 float:right;
 
 }
+
+
 #content{
 width: 100%;
 }
 h1{
+
 font-family:"Times New Roman" , serif;
 font-size: 170px;
 color:#388E8B;/*teal*/
@@ -74,10 +79,12 @@ padding:20px;
 
 }
 h2{
+
 color:#857454;/**/
 }
 h3{
 color:#515010;/*drk green*/
+
 }
 h4{
 color:#C02A12;/**/
@@ -96,11 +103,13 @@ display:inline;
 }
 /*paragraph style*/
 p{
+
 /*font-family:Verdana,Arial,sans-serif ;*/
 font-family:"Lato";
 font-size:1.2em;
 color:#4E4037;/*dkBrown*/
 margin:10px;
+
 }
 /*==spans colors==*/
 .flower{
@@ -111,20 +120,22 @@ margin:10px;
 color:#C02A12;
 }
 .green{
+
 color:#515010;/*Green*/
+
 }
 article{
 margin:20px;
 padding:50px;
 }
 img{
-
 /*border-style:solid;*/
 /*border-color:#515010;*//*dkgreen*/
 /*border-radius: 10px;*/
 /*border-width: 2px;*/
 margin:10px;
 padding:5px;
+
 }
 /*code for tool tip pop up*/
 .tooltip{
@@ -137,11 +148,13 @@ padding:5px;
 	padding:10px;
 	color:#FFF;
 	font-size:12px Arial;
+
 }
 /*Tabs- for accordian*/
 /* mytabs creates the light grey backround box to hold all the projects*/
 .mytabs{
-/*width:800px;*/
+
+
 width:960px;
 background-color:#388E8B;/*grey#CCC*/
 padding:10px;
