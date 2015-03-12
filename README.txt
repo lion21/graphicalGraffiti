@@ -1,4 +1,5 @@
 README.txt
+Object to practice making branches and reconciling in git.
 
 Profile Page Deployement
 
