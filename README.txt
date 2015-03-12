@@ -14,7 +14,7 @@ Profile Page Deployement
 
 		--global
 
-		. /etc/gitconfig   -----contains values for evrey user on the sysand thier  
+		. /etc/gitconfig   -----contains values for evrey user on the sysand their  
 
 								repos	
 
